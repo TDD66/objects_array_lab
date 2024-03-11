@@ -1,19 +1,19 @@
-// // GUESS 1 ///////////////////
-let guess = {
-  hair_colour: "red",
-  eye_colour: "blue",
-  hat: false,
-  glasses: true,
-  firstName: "Joseph",
-};
+// // // GUESS 1 ///////////////////
+// let guess = {
+//   hair_colour: "red",
+//   eye_colour: "blue",
+//   hat: false,
+//   glasses: true,
+//   firstName: "Joseph",
+// };
 
-const guessWho = function () {
-  return `Guess who is ${guess.firstName}`;
-};
+// const guessWho = function () {
+//   return `Guess who is ${guess.firstName}`;
+// };
 
-const finalAnswer = guessWho();
-console.log(finalAnswer);
-// // Prediction: 
+// const finalAnswer = guessWho();
+// console.log(finalAnswer);
+// // Prediction: Guess who is Joseph
 
 // // GUESS 2 ///////////////////
 
@@ -30,6 +30,8 @@ console.log(finalAnswer);
 
 // const guess2 = `Guess Who is ${firstName}`;
 // console.log("guess2: ", guess2);
+
+// Prediction: guess2: Guess Who is Donna
 
 // // GUESS 3 ///////////////////
 
@@ -62,6 +64,8 @@ console.log(finalAnswer);
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
 
+// Prediction: Guess Who is Chris
+
 // // GUESS 4 ///////////////////
 
 // let firstName = "Gail";
@@ -76,6 +80,8 @@ console.log(finalAnswer);
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
+
+// Prediction: Guess Who is Gail
 
 // // GUESS 5 ///////////////////
 
@@ -99,3 +105,6 @@ console.log(finalAnswer);
 
 // changeGuess();
 // console.log(`Guess Who is ${guess.firstName}`);
+
+
+// Prediction: Error, cannot assign to constant variable
